@@ -1,6 +1,6 @@
 # Nakawari (中割り)
 
-**DLSS Multi Frame Generation (3x/4x) on RTX 40 cards, one click per game.** A Windows app by [AbudiHadi](https://github.com/AbudiHadi) that installs the community MFG unlock into your games safely, keeps it updated, checks that it works, and puts every folder back exactly as it was when you turn it off. It is built to run alongside [SCSKiller](https://github.com/BlueHeisenberg/SCSKiller)'s shader cache.
+**DLSS Multi Frame Generation (3x, 4x, up to 6x) on RTX 40 cards, one click per game.** A Windows app by [AbudiHadi](https://github.com/AbudiHadi) that installs the community MFG unlock into your games safely, keeps it updated, checks that it works, and puts every folder back exactly as it was when you turn it off. It is built to run alongside [SCSKiller](https://github.com/BlueHeisenberg/SCSKiller)'s shader cache.
 
 *Nakawari* is the Japanese animation term for the in-between drawings placed between key frames. That is what frame generation does.
 
@@ -59,7 +59,7 @@ Results go to the exit code and to `%LOCALAPPDATA%\AbudiHadi\Nakawari\log.txt`. 
 
 ## What to expect
 
-- Your card gets the 3x/4x multipliers, not RTX 50 hardware. RTX 40 lacks Blackwell's hardware flip metering, so frame pacing and latency are worse than on a 50-series card. Start from a base frame rate of about 60 fps. The per-game **Pacing** presets help.
+- Your card gets the 3x, 4x and up to 6x multipliers, not RTX 50 hardware. The doctor shows the real ceiling your driver and game allow. RTX 40 lacks Blackwell's hardware flip metering, so frame pacing and latency are worse than on a 50-series card. Start from a base frame rate of about 60 fps. The per-game **Pacing** presets help.
 - Single-player games only. Nakawari refuses games with online anti-cheat.
 - Vulkan games (Indiana Jones, DOOM: The Dark Ages) need the addon's experimental Vulkan path. Nakawari flags them.
 
