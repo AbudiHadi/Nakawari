@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Nakawari</RootNamespace>
+    <AssemblyName>Nakawari</AssemblyName>
+    <Version>2.0.0</Version>
+    <Product>Nakawari</Product>
+    <Company>AbudiHadi</Company>
+    <Authors>AbudiHadi</Authors>
+    <Copyright>© 2026 AbudiHadi</Copyright>
+    <Description>Nakawari: DLSS Multi Frame Generation for RTX 40, with shader-cache care, in one app.</Description>
+    <ApplicationIcon>Assets\nakawari.ico</ApplicationIcon>
+    <!-- Program.Main runs Velopack's install/update hooks before WPF starts. -->
+    <StartupObject>Nakawari.Program</StartupObject>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Velopack" Version="1.2.161" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- WinForms is only used for the tray notification; keep its names out of every file. -->
+    <Using Remove="System.Windows.Forms" />
+    <Using Remove="System.Drawing" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\bg-day.jpg" />
+    <Resource Include="Assets\bg-night.jpg" />
+    <Resource Include="Assets\mascot.png" />
+    <Resource Include="Assets\icon-256.png" />
+    <Resource Include="Assets\nakawari.ico" />
+    <Resource Include="Assets\Fonts\VarelaRound-Regular.ttf" />
+  </ItemGroup>
+
+</Project>

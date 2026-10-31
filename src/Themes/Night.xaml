@@ -1,0 +1,22 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Night: moonlit indigo watercolor. Same keys as Day.xaml. -->
+    <BitmapImage x:Key="BackgroundImage" UriSource="pack://application:,,,/Assets/bg-night.jpg"/>
+    <SolidColorBrush x:Key="Paper" Color="#E6172042"/>
+    <SolidColorBrush x:Key="PaperSoft" Color="#C2172042"/>
+    <SolidColorBrush x:Key="PaperHover" Color="#F01E2A52"/>
+    <SolidColorBrush x:Key="Ink" Color="#ECEFF7"/>
+    <SolidColorBrush x:Key="InkSoft" Color="#9FAACA"/>
+    <SolidColorBrush x:Key="Line" Color="#33406B"/>
+    <SolidColorBrush x:Key="Accent" Color="#E8664F"/>
+    <SolidColorBrush x:Key="AccentHover" Color="#F27A63"/>
+    <SolidColorBrush x:Key="OnAccent" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="Sky" Color="#7FB6EA"/>
+    <SolidColorBrush x:Key="Ok" Color="#9AD47A"/>
+    <SolidColorBrush x:Key="OkBg" Color="#2A4A33"/>
+    <SolidColorBrush x:Key="Warn" Color="#F0C060"/>
+    <SolidColorBrush x:Key="WarnBg" Color="#4A3D22"/>
+    <SolidColorBrush x:Key="Bad" Color="#F58C80"/>
+    <SolidColorBrush x:Key="BadBg" Color="#4C2A33"/>
+    <SolidColorBrush x:Key="NeutralBg" Color="#28345E"/>
+</ResourceDictionary>

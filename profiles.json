@@ -1,0 +1,8 @@
+[
+  { "match": "Hogwarts Legacy", "hdrMode": 2, "note": "HDR fix mode applied automatically" },
+  { "match": "Jusant", "hdrMode": 2, "note": "HDR fix mode applied automatically" },
+  { "match": "Mafia: The Old Country", "hdrMode": 2, "note": "HDR fix mode applied automatically" },
+  { "match": "Indiana Jones", "note": "Vulkan game: needs the addon's Vulkan launch option (experimental)" },
+  { "match": "DOOM: The Dark Ages", "note": "Vulkan game: needs the addon's Vulkan launch option (experimental)" },
+  { "match": "Monster Hunter Wilds", "note": "Restart the game once after shader compilation" }
+]

@@ -1,0 +1,22 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Day: summer sky watercolor. Same keys as Night.xaml; swapped at runtime by ThemeService. -->
+    <BitmapImage x:Key="BackgroundImage" UriSource="pack://application:,,,/Assets/bg-day.jpg"/>
+    <SolidColorBrush x:Key="Paper" Color="#F2FBF8F1"/>
+    <SolidColorBrush x:Key="PaperSoft" Color="#D9FBF8F1"/>
+    <SolidColorBrush x:Key="PaperHover" Color="#FFFFFDF8"/>
+    <SolidColorBrush x:Key="Ink" Color="#2B3642"/>
+    <SolidColorBrush x:Key="InkSoft" Color="#6A7684"/>
+    <SolidColorBrush x:Key="Line" Color="#E4DACA"/>
+    <SolidColorBrush x:Key="Accent" Color="#D94F3D"/>
+    <SolidColorBrush x:Key="AccentHover" Color="#E5604E"/>
+    <SolidColorBrush x:Key="OnAccent" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="Sky" Color="#3D8ACB"/>
+    <SolidColorBrush x:Key="Ok" Color="#4E8C30"/>
+    <SolidColorBrush x:Key="OkBg" Color="#E2EFD5"/>
+    <SolidColorBrush x:Key="Warn" Color="#AF7608"/>
+    <SolidColorBrush x:Key="WarnBg" Color="#FAEDCD"/>
+    <SolidColorBrush x:Key="Bad" Color="#BE3F34"/>
+    <SolidColorBrush x:Key="BadBg" Color="#F7DCD7"/>
+    <SolidColorBrush x:Key="NeutralBg" Color="#ECE4D4"/>
+</ResourceDictionary>
